@@ -1,15 +1,12 @@
-.webPages {;   
-
+.webPages {
   ol {
     list-style-type: none;
-    display: block;
+    display: inline-block;
+    float: right;
   }
   li {
     display: inline-block;
-    float: right;
-    font-size: 125%;
+    font-size: 200%;
     font-weight: bold;
-    padding: 0 1%;
   }
-
 }
