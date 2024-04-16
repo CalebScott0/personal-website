@@ -1,0 +1,11 @@
+.webPages ol {
+  list-style-type: none;
+  display: block;
+}
+.webPages li {
+  display: inline-block;
+  float: right;
+  font-size: 125%;
+  font-weight: bold;
+  padding: 0 1%;
+}/*# sourceMappingURL=style.css.map */
