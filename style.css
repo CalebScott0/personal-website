@@ -1,11 +1,11 @@
-.webPages ol {
-  list-style-type: none;
-  display: block;
-}
-.webPages li {
+nav div {
   display: inline-block;
+}
+nav h1 {
+  font-size: xx-large;
+}
+nav .webPages {
   float: right;
-  font-size: 125%;
-  font-weight: bold;
-  padding: 0 1%;
+  margin-top: 2%;
+  font-size: 150%;
 }/*# sourceMappingURL=style.css.map */

@@ -1,15 +1,18 @@
-.webPages {;   
 
-  ol {
-    list-style-type: none;
-    display: block;
-  }
-  li {
+nav{
+
+   div {
+    
     display: inline-block;
-    float: right;
-    font-size: 125%;
-    font-weight: bold;
-    padding: 0 1%;
-  }
+   }
+   h1 {
+    font-size: xx-large;
+   }
+.webPages {
+    float: right;  
+    margin-top: 2%;
+    font-size: 150%;
+}
+ 
 
 }
