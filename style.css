@@ -14,4 +14,14 @@ nav .webPages {
 }
 nav .webPages a {
   margin-right: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.container img {
+  margin-top: 10%;
+  width: 400px;
+  height: 310px;
 }/*# sourceMappingURL=style.css.map */

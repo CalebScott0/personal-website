@@ -1,20 +1,30 @@
+nav {
+  border-bottom: 1px solid black;
+  padding: 0 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-nav{
-    border-bottom: 1px solid black;
-    padding: 0 2%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-   .name
-    {
+  .name {
     font-size: x-large;
     margin-left: 10px;
-   }
-.webPages {
+  }
+  .webPages {
     font-size: 150%;
- a {
-    margin-right: 10px;
- }
+    a {
+      margin-right: 10px;
+    }
+  }
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        margin-top: 10%;
+        width: 400px;
+        height: 310px;
+    }
+    
 }
