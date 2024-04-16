@@ -20,6 +20,16 @@ nav {
 .container {
     display: flex;
     justify-content: space-between;
+    margin: 0 5%;
+
+    div {
+        border: 1px solid black;
+        border-top: none;
+    }
+    .bio {
+        border-right: none;
+        padding: 0 20px;
+    }
 
     img {
         margin-top: 10%;

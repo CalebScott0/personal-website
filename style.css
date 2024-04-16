@@ -19,6 +19,15 @@ nav .webPages a {
 .container {
   display: flex;
   justify-content: space-between;
+  margin: 0 5%;
+}
+.container div {
+  border: 1px solid black;
+  border-top: none;
+}
+.container .bio {
+  border-right: none;
+  padding: 0 20px;
 }
 .container img {
   margin-top: 10%;
