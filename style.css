@@ -1,6 +1,12 @@
+body {
+  background-color: burlywood;
+}
+
 nav {
-  border-bottom: 1px solid black;
-  padding: 0 2%;
+  background-color: white;
+  border: 1px solid black;
+  margin: 0 2%;
+  padding: 1% 2%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,15 +17,18 @@ nav .name {
 }
 nav .webPages {
   font-size: 150%;
+  margin-right: 2%;
 }
 nav .webPages a {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .container {
+  background-color: white;
   display: flex;
   justify-content: space-between;
-  margin: 0 5%;
+  margin: 0 2%;
+  overflow: scroll;
 }
 .container div {
   border: 1px solid black;
