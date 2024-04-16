@@ -1,11 +1,17 @@
-nav div {
-  display: inline-block;
+nav {
+  border-bottom: 1px solid black;
+  padding: 0 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-nav h1 {
-  font-size: xx-large;
+nav .name {
+  font-size: x-large;
+  margin-left: 10px;
 }
 nav .webPages {
-  float: right;
-  margin-top: 2%;
   font-size: 150%;
+}
+nav .webPages a {
+  margin-right: 10px;
 }/*# sourceMappingURL=style.css.map */
