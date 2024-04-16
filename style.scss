@@ -19,22 +19,28 @@ nav {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;;
     margin: 0 5%;
+
 
     div {
         border: 1px solid black;
         border-top: none;
     }
     .bio {
-        border-right: none;
-        padding: 0 20px;
+        border-right:none;
+        padding: 0 20px 100px;    
     }
 
     img {
         margin-top: 10%;
         width: 400px;
         height: 310px;
+    }
+    .quote {
+        padding: 5% 2% 0% 15%;
+        width: 120%;
+        border-left:none;
     }
     
 }
