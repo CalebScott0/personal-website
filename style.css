@@ -1,9 +1,14 @@
 body {
-  background-color: burlywood;
+  background-color: #d8bd8a;
+}
+
+header {
+  position: sticky;
+  top: 0;
 }
 
 nav {
-  background-color: white;
+  background-color: #582817;
   border: 1px solid black;
   margin: 0 2%;
   padding: 1% 2%;
@@ -12,6 +17,7 @@ nav {
   align-items: center;
 }
 nav .name {
+  color: antiquewhite;
   font-size: x-large;
   margin-left: 10px;
 }
@@ -20,31 +26,61 @@ nav .webPages {
   margin-right: 2%;
 }
 nav .webPages a {
+  color: antiquewhite;
+  text-decoration: none;
   margin-right: 20px;
+}
+nav .webPages a:hover {
+  color: #d8bd8a;
 }
 
 .container {
+  background-color: #E4D9C3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 2%;
+  overflow: scroll;
+  border: 1px solid black;
+  color: #582817;
+}
+.container #bio {
+  border-right: none;
+  padding-bottom: 100px;
+}
+.container #bio h2, .container #bio p {
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.container #bio img {
+  margin-left: 25%;
+  margin-top: 6%;
+  margin-bottom: 4%;
+}
+.container img {
+  width: 315px;
+  height: 260px;
+}
+.container #quote {
+  font-size: 2.5rem;
+  padding: 4% 15%;
+  text-align: justify;
+  border-left: none;
+}
+
+.containerAbout {
   background-color: white;
   display: flex;
   justify-content: space-between;
   margin: 0 2%;
   overflow: scroll;
 }
-.container div {
-  border: 1px solid black;
-  border-top: none;
-}
-.container .bio {
-  border-right: none;
-  padding: 0 20px 100px;
-}
-.container img {
+.containerAbout img {
   margin-top: 10%;
-  width: 400px;
-  height: 310px;
+  width: 315px;
+  height: 260px;
 }
-.container .quote {
-  padding: 5% 2% 0% 15%;
-  width: 120%;
-  border-left: none;
+.containerAbout div {
+  border: 1px solid black;
 }/*# sourceMappingURL=style.css.map */
