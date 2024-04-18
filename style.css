@@ -40,9 +40,17 @@ nav .webPages a:hover {
   flex-direction: column;
   justify-content: space-between;
   margin: 0 2%;
-  overflow: scroll;
   border: 1px solid black;
   color: #582817;
+}
+.container img {
+  border: 1px solid black;
+}
+.container #quote {
+  font-size: 2.5rem;
+  padding: 4% 15%;
+  text-align: justify;
+  border-left: none;
 }
 .container #bio {
   border-right: none;
@@ -55,33 +63,61 @@ nav .webPages a:hover {
   margin-right: 10%;
 }
 .container #bio img {
+  width: 30%;
   margin-left: 25%;
-  margin-top: 6%;
   margin-bottom: 4%;
 }
-.container img {
-  width: 315px;
-  height: 260px;
+.container #computer, .container #ultimate, .container #yoga {
+  display: flex;
 }
-.container #quote {
-  font-size: 2.5rem;
-  padding: 4% 15%;
-  text-align: justify;
-  border-left: none;
+.container #computer img, .container #ultimate img, .container #yoga img {
+  width: 20%;
+  margin: 2%;
+}
+.container #computer h2, .container #computer p, .container #ultimate h2, .container #ultimate p, .container #yoga h2, .container #yoga p {
+  margin: 2%;
+}
+.container #computerHeading, .container #yogaHeading {
+  margin-left: 2%;
 }
 
-.containerAbout {
+.containerPort {
   background-color: #e4d9c3;
   display: flex;
   justify-content: space-between;
   margin: 0 2%;
+  color: #582817;
+}
+.containerPort img {
+  border: 1px solid black;
+  margin-top: 10%;
+  width: 250px;
+  height: 200px;
+}
+.containerPort div {
+  border: 1px solid black;
+}
+.containerPort #portfolio-1 {
+  padding: 2%;
   overflow: scroll;
 }
-.containerAbout img {
-  margin-top: 10%;
-  width: 315px;
-  height: 260px;
+.containerPort #portfolio-2 {
+  padding: 2%;
+  overflow: scroll;
 }
-.containerAbout div {
-  border: 1px solid black;
+.containerPort #portfolio-3 {
+  padding: 2%;
+  overflow: scroll;
+}
+.containerPort #portfolio-4 {
+  padding: 2%;
+  overflow: scroll;
+}
+.containerPort #portfolio-5 {
+  padding: 2%;
+  overflow: scroll;
+}
+.containerPort #portfolio-6 {
+  padding: 2%;
+  overflow: scroll;
 }/*# sourceMappingURL=style.css.map */

@@ -52,13 +52,20 @@ nav {
   justify-content: space-between;
   // Formats margin to match edges with header
   margin: 0 2%;
-  // Changes behavior when window shrinks
-  overflow: scroll;
 
   // Formatting for index page container
   border: $divBorder;
   color: #582817;
+  img {
+    border: $divBorder;
+  }
 
+  #quote {
+    font-size: 2.5rem;
+    padding: 4% 15%;
+    text-align: justify;
+    border-left: none;
+  }
   #bio {
     border-right: none;
     padding-bottom: 100px;
@@ -70,26 +77,27 @@ nav {
       margin-right: 10%;
     }
     img {
+      width: 30%;
       margin-left: 25%;
-      margin-top: 6%;
       margin-bottom: 4%;
     }
   }
-
-  // Change this to format each picture individually
-  img {
-    width: 315px;
-    height: 260px;
+  #computer, #ultimate, #yoga {
+    display: flex;
+    img {
+      width: 20%;
+      margin: 2%;
+    }
+    h2, p {
+      margin: 2%;
+    }
   }
-  #quote {
-    font-size: 2.5rem;
-    padding: 4% 15%;
-    text-align: justify;
-    border-left: none;
+  #computerHeading, #yogaHeading {
+    margin-left: 2%;
   }
 }
 
-.containerAbout {
+.containerPort {
   // Basic formatting for all container divs on each page
   background-color: #e4d9c3;
   // Set div display value to flex
@@ -97,14 +105,21 @@ nav {
   // With formatting, places name and links at opposite ends of the header
   justify-content: space-between;
   margin: 0 2%;
-  // Changes behavior when window shrinks
-  overflow: scroll;
+  color: #582817;
+
   img {
+    border: $divBorder;
     margin-top: 10%;
-    width: 315px;
-    height: 260px;
+    width: 250px;
+    height: 200px;
   }
   div {
     border: $divBorder;
+  }
+  @for $i from 1 through 6 {
+    #portfolio-#{$i} {
+      padding: 2%;
+      overflow: scroll;
+    }
   }
 }
