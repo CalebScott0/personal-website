@@ -103,7 +103,7 @@ nav .webPages a:hover {
 .container #bio p #hello {
   font-size: 1.68em;
 }
-.container #bio img {
+.container #bio figure {
   width: 20%;
   height: 10%;
   margin-right: 25px;

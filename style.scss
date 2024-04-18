@@ -1,8 +1,12 @@
 // Universal border variable
 $divBorder: 1px solid black;
+// Color scheme variables
+$color1: #d8bd8a;
+$color2: #582817;
+$color3: #e4d9c3;
 
 body {
-  background-color: #d8bd8a;
+  background-color: $color1;
 }
 
 header {
@@ -12,7 +16,7 @@ header {
 }
 
 nav {
-  background-color: #582817;
+  background-color: $color2;
   border: $divBorder;
   // Margin aligns header with div giving space at ends on page
   margin: 0 2%;
@@ -22,11 +26,13 @@ nav {
   justify-content: space-between;
   align-items: center;
 
+// Styling of nav website title
   .name {
     color: antiquewhite;
     font-size: x-large;
     margin-left: 10px;
   }
+  // styling of nav bar page links
   .webPages {
     font-size: 150%;
     margin-right: 2%;
@@ -35,13 +41,14 @@ nav {
       text-decoration: none;
       margin-right: 20px;
     }
+    // changes text color of links to match body background color when hovered over
     a:hover {
-      color: #d8bd8a;
+      color: $color1;
     }
   }
 }
 #aboutNav {
-  background-color: #e4d9c3;
+  background-color: $color3;
   border: $divBorder;
   // Margin aligns header with div giving space at ends on page
   margin: 0 2%;
@@ -52,7 +59,7 @@ nav {
   align-items: center;
 
   .name {
-    color: #582817;
+    color: $color2;
     font-size: x-large;
     margin-left: 10px;
   }
@@ -60,12 +67,12 @@ nav {
     font-size: 150%;
     margin-right: 2%;
     a {
-      color: #582817;
+      color: $color2;
       text-decoration: none;
       margin-right: 20px;
     }
     a:hover {
-      color: #d8bd8a;
+      color: $color1;
     }
   }
 
@@ -74,7 +81,7 @@ nav {
 
 .container {
   // Basic formatting for all container divs on each page
-  background-color: #e4d9c3;
+  background-color: $color3;
   // Set div display value to flex
   display: flex;
   flex-direction: column;
@@ -86,11 +93,11 @@ nav {
 
   // Formatting for index page container
   border: $divBorder;
-  color: #582817;
+  color: $color2;
   img {
     border: $divBorder;
   }
-
+// Styling of home page quote
   #quote {
     max-width: 600px;
     font-size: 2.5rem;
@@ -104,6 +111,7 @@ nav {
       text-align: right;
     }
   }
+  // styling of home bio with display flex
   #bio {
     display: flex;
     border-right: none;
@@ -123,13 +131,15 @@ nav {
       margin-right: 10%;
       font-size: 1.5em;
     }
-    img {
+    // adding styling to figure tag
+    figure {
       width: 20%;
       height: 10%;
       margin-right: 25px;
       margin-bottom: 4%;
     }
   }
+  // styling of divs on about page
   #computer, #ultimate, #yoga {
     display: flex;
     img {
@@ -149,26 +159,23 @@ nav {
     margin-bottom: -1%;
     margin-top: 2%;
   }
-  // #computerHeading, #ultimateHeading, #yogaHeading {
-  //   max-width: fit-content;
-  //   border-bottom: $divBorder;
-  // }
-
+ 
+  // styling for about page border
 }
 #aboutContainer {
-  border: 68px solid #582817;
+  border: 68px solid $color2;
 }
-
+// styling for portfolio page
 .containerPort {
   // Basic formatting for all container divs on each page
-  background-color: #e4d9c3;
+  background-color: $color3;
   // Set div display value to flex
   display: flex;
   // With formatting, places name and links at opposite ends of the header
   justify-content: space-between;
   margin: 0 2%;
-  color: #582817;
-
+  color: $color2;
+// styling of portfolio page images
   img {
     border: $divBorder;
     margin-top: 10%;
@@ -178,12 +185,14 @@ nav {
   div {
     border: $divBorder;
   }
+  // loop to add padding and overflow auto property to each individual portfolio page
   @for $i from 1 through 6 {
     #portfolio-#{$i} {
       padding: 2%;
       overflow: auto;
     }
   }
+  // bottom border added to underline portfolio headers
   h2 {
     max-width: fit-content;
     border-bottom: $divBorder;
