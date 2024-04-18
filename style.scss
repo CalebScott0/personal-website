@@ -40,6 +40,36 @@ nav {
     }
   }
 }
+#aboutNav {
+  background-color: #e4d9c3;
+  border: $divBorder;
+  // Margin aligns header with div giving space at ends on page
+  margin: 0 2%;
+  // Padding adds space around header text
+  padding: 1% 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .name {
+    color: #582817;
+    font-size: x-large;
+    margin-left: 10px;
+  }
+  .webPages {
+    font-size: 150%;
+    margin-right: 2%;
+    a {
+      color: #582817;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+    a:hover {
+      color: #d8bd8a;
+    }
+  }
+
+}
 
 
 .container {
@@ -80,6 +110,12 @@ nav {
     padding-bottom: 100px;
 
     p {
+      font-family: sans-serif;
+      max-width: 540px;
+
+      #hello{
+        font-size: 1.68em;
+      }
       // Sets text to jusity aligment and adds margins to the sides
       width: 800px;
       text-align: justify;
@@ -111,12 +147,16 @@ nav {
   #computerHeading, #yogaHeading {
     margin-left: 2%;
     margin-bottom: -1%;
+    margin-top: 2%;
   }
   // #computerHeading, #ultimateHeading, #yogaHeading {
   //   max-width: fit-content;
   //   border-bottom: $divBorder;
   // }
 
+}
+#aboutContainer {
+  border: 68px solid #582817;
 }
 
 .containerPort {
@@ -141,7 +181,7 @@ nav {
   @for $i from 1 through 6 {
     #portfolio-#{$i} {
       padding: 2%;
-      overflow: scroll;
+      overflow: auto;
     }
   }
   h2 {

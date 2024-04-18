@@ -34,6 +34,33 @@ nav .webPages a:hover {
   color: #d8bd8a;
 }
 
+#aboutNav {
+  background-color: #e4d9c3;
+  border: 1px solid black;
+  margin: 0 2%;
+  padding: 1% 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#aboutNav .name {
+  color: #582817;
+  font-size: x-large;
+  margin-left: 10px;
+}
+#aboutNav .webPages {
+  font-size: 150%;
+  margin-right: 2%;
+}
+#aboutNav .webPages a {
+  color: #582817;
+  text-decoration: none;
+  margin-right: 20px;
+}
+#aboutNav .webPages a:hover {
+  color: #d8bd8a;
+}
+
 .container {
   background-color: #e4d9c3;
   display: flex;
@@ -65,11 +92,16 @@ nav .webPages a:hover {
   padding-bottom: 100px;
 }
 .container #bio p {
+  font-family: sans-serif;
+  max-width: 540px;
   width: 800px;
   text-align: justify;
   margin-left: 10%;
   margin-right: 10%;
   font-size: 1.5em;
+}
+.container #bio p #hello {
+  font-size: 1.68em;
 }
 .container #bio img {
   width: 20%;
@@ -94,6 +126,11 @@ nav .webPages a:hover {
 .container #computerHeading, .container #yogaHeading {
   margin-left: 2%;
   margin-bottom: -1%;
+  margin-top: 2%;
+}
+
+#aboutContainer {
+  border: 68px solid #582817;
 }
 
 .containerPort {
@@ -114,27 +151,27 @@ nav .webPages a:hover {
 }
 .containerPort #portfolio-1 {
   padding: 2%;
-  overflow: scroll;
+  overflow: auto;
 }
 .containerPort #portfolio-2 {
   padding: 2%;
-  overflow: scroll;
+  overflow: auto;
 }
 .containerPort #portfolio-3 {
   padding: 2%;
-  overflow: scroll;
+  overflow: auto;
 }
 .containerPort #portfolio-4 {
   padding: 2%;
-  overflow: scroll;
+  overflow: auto;
 }
 .containerPort #portfolio-5 {
   padding: 2%;
-  overflow: scroll;
+  overflow: auto;
 }
 .containerPort #portfolio-6 {
   padding: 2%;
-  overflow: scroll;
+  overflow: auto;
 }
 .containerPort h2 {
   max-width: -moz-fit-content;
