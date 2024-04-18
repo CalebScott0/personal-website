@@ -41,6 +41,7 @@ nav {
   }
 }
 
+
 .container {
   // Basic formatting for all container divs on each page
   background-color: #e4d9c3;
@@ -103,6 +104,9 @@ nav {
     h2, p {
       margin: 2% 2% -1%;
     }
+  }
+  #yogaPic {
+    max-height: 300px;
   }
   #computerHeading, #yogaHeading {
     margin-left: 2%;

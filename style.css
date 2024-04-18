@@ -88,6 +88,9 @@ nav .webPages a:hover {
 .container #computer h2, .container #computer p, .container #ultimate h2, .container #ultimate p, .container #yoga h2, .container #yoga p {
   margin: 2% 2% -1%;
 }
+.container #yogaPic {
+  max-height: 300px;
+}
 .container #computerHeading, .container #yogaHeading {
   margin-left: 2%;
   margin-bottom: -1%;
