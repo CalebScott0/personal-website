@@ -103,21 +103,21 @@ nav .webPages a:hover {
   margin-right: 25px;
   margin-bottom: 4%;
 }
-.container #computer, .container #ultimate, .container #yoga {
+.container #drum, .container #ultimate, .container #yoga {
   display: flex;
 }
-.container #computer img, .container #ultimate img, .container #yoga img {
+.container #drum img, .container #ultimate img, .container #yoga img {
   width: 20%;
   height: 10%;
   margin: 2%;
 }
-.container #computer h2, .container #computer p, .container #ultimate h2, .container #ultimate p, .container #yoga h2, .container #yoga p {
+.container #drum h2, .container #drum p, .container #ultimate h2, .container #ultimate p, .container #yoga h2, .container #yoga p {
   margin: 2% 2% -1%;
 }
 .container #yogaPic {
   max-height: 250px;
 }
-.container #computerHeading, .container #yogaHeading {
+.container #drumHeading, .container #yogaHeading {
   margin-left: 2%;
   margin-bottom: -1%;
   margin-top: 2%;
