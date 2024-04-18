@@ -213,6 +213,7 @@ nav {
   }
   div {
     border: $divBorder;
+    border-width: .5px;
   }
   // loop to add padding and overflow auto property to each individual portfolio page
   @for $i from 1 through 6 {

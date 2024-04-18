@@ -163,6 +163,7 @@ nav .webPages a:hover {
 }
 .containerPort div {
   border: 1px solid black;
+  border-width: 0.5px;
 }
 .containerPort #portfolio-1 {
   padding: 2%;
