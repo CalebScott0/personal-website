@@ -2,11 +2,6 @@ body {
   background-color: #d8bd8a;
 }
 
-header {
-  position: sticky;
-  top: 0;
-}
-
 nav {
   background-color: #582817;
   border: 1px solid black;
@@ -15,9 +10,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: antiquewhite;
 }
 nav .name {
-  color: antiquewhite;
   font-size: x-large;
   margin-left: 10px;
 }
