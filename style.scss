@@ -5,6 +5,11 @@ $color1: #d8bd8a;
 $color2: #582817;
 $color3: #e4d9c3;
 
+$quoteFontSize: 2.5rem;
+
+// importing fonts from fonts.google.com
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
 body {
   background-color: $color1;
 }
@@ -21,11 +26,14 @@ nav {
   // Margin aligns header with div giving space at ends on page
   margin: 0 2%;
   // Padding adds space around header text
-  padding: 1% 2%;
+  padding: 1.618% 4%;
+  // styling to align text on nav bar
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: antiquewhite;
+  font-family: EB garamond, sans-serif;
+  font-weight: bold;
 
 // Styling of nav website title
   .name {
@@ -47,31 +55,11 @@ nav {
     }
   }
 }
-// footer {
-//   background-color: $color2;
-//   border: $divBorder;
-//   // Margin aligns header with div giving space at ends on page
-//   margin: 0 2%;
-//   // Padding adds space around header text
-//   padding: 1% 2%;
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   color: antiquewhite;
-//   font-size: x-large;
 
-// }
 #aboutNav {
   background-color: $color3;
   border: $divBorder;
-  // Margin aligns header with div giving space at ends on page
-  margin: 0 2%;
-  // Padding adds space around header text
-  padding: 1% 2%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
+  
   .name {
     color: $color2;
     font-size: x-large;
@@ -114,8 +102,8 @@ nav {
 // Styling of home page quote
   #quote {
     max-width: 600px;
-    font-size: 2.5rem;
-    font-family: cursive;
+    font-size: $quoteFontSize;
+    font-family:  courgette, cursive;
     font-weight: 700;
     padding: 4% 15%;
     text-align: justify;
@@ -130,11 +118,12 @@ nav {
     display: flex;
     border-right: none;
     padding-bottom: 100px;
+    overflow: hidden;
 
     p {
-      font-family: sans-serif;
+      font-family: EB garamond, sans-serif;
       max-width: 540px;
-
+      
       #hello{
         font-size: 1.68em;
       }
@@ -155,6 +144,7 @@ nav {
   }
   // styling of divs on about page
   #computer, #ultimate, #yoga {
+
     display: flex;
     img {
       width: 20%;
@@ -166,18 +156,32 @@ nav {
     }
   }
   #yogaPic {
-    max-height: 300px;
+    max-height: 250px;
   }
   #computerHeading, #yogaHeading {
     margin-left: 2%;
     margin-bottom: -1%;
     margin-top: 2%;
+    
   }
- 
-  // styling for about page border
 }
+// styling for about page border
 #aboutContainer {
   border: 68px solid $color2;
+  border-top-width: 50px;
+  border-bottom-width: 150px;
+  font-family: EB garamond, sans-serif;
+  font-size: larger;
+}
+#aboutHeading {
+  background-color: #582817;
+  color: #e4d9c3;
+  text-align: center;
+  font-size: 1.5*$quoteFontSize;
+  margin: 0;
+  padding: 50px;
+  font-family: EB garamond, sans-serif;
+
 }
 // styling for portfolio page
 .containerPort {
@@ -189,6 +193,7 @@ nav {
   justify-content: space-between;
   margin: 0 2%;
   color: $color2;
+  font-family: EB garamond, sans-serif;
 // styling of portfolio page images
   img {
     border: $divBorder;
