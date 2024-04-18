@@ -1,7 +1,6 @@
 // Universal border variable
 $divBorder: 1px solid black;
 
-
 body {
   background-color: #d8bd8a;
 }
@@ -15,7 +14,9 @@ header {
 nav {
   background-color: #582817;
   border: $divBorder;
+  // Margin aligns header with div giving space at ends on page
   margin: 0 2%;
+  // Padding adds space around header text
   padding: 1% 2%;
   display: flex;
   justify-content: space-between;
@@ -29,28 +30,27 @@ nav {
   .webPages {
     font-size: 150%;
     margin-right: 2%;
-    a  {
+    a {
       color: antiquewhite;
       text-decoration: none;
-      // background-color: red;
       margin-right: 20px;
     }
     a:hover {
       color: #d8bd8a;
     }
-
   }
 }
 
 .container {
   // Basic formatting for all container divs on each page
-  background-color: #E4D9C3;
+  background-color: #e4d9c3;
   // Set div display value to flex
   display: flex;
   flex-direction: column;
 
   // With formatting, places name and links at opposite ends of the header
   justify-content: space-between;
+  // Formats margin to match edges with header
   margin: 0 2%;
   // Changes behavior when window shrinks
   overflow: scroll;
@@ -62,7 +62,9 @@ nav {
   #bio {
     border-right: none;
     padding-bottom: 100px;
-    h2, p {
+    h2,
+    p {
+      // Sets text to jusity aligment and adds margins to the sides
       text-align: justify;
       margin-left: 10%;
       margin-right: 10%;
@@ -85,13 +87,11 @@ nav {
     text-align: justify;
     border-left: none;
   }
-  
-    
 }
 
 .containerAbout {
   // Basic formatting for all container divs on each page
-  background-color: white;
+  background-color: #e4d9c3;
   // Set div display value to flex
   display: flex;
   // With formatting, places name and links at opposite ends of the header

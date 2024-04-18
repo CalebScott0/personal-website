@@ -35,7 +35,7 @@ nav .webPages a:hover {
 }
 
 .container {
-  background-color: #E4D9C3;
+  background-color: #e4d9c3;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -48,7 +48,8 @@ nav .webPages a:hover {
   border-right: none;
   padding-bottom: 100px;
 }
-.container #bio h2, .container #bio p {
+.container #bio h2,
+.container #bio p {
   text-align: justify;
   margin-left: 10%;
   margin-right: 10%;
@@ -70,7 +71,7 @@ nav .webPages a:hover {
 }
 
 .containerAbout {
-  background-color: white;
+  background-color: #e4d9c3;
   display: flex;
   justify-content: space-between;
   margin: 0 2%;
