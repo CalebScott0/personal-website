@@ -167,6 +167,12 @@ nav {
     margin-top: 2%;
     
   }
+  hr {
+    border: .5px solid $color2;
+  }
+  .hrMargin {
+    margin: 0 2%;
+  }
 }
 // styling for about page border
 #aboutContainer {

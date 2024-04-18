@@ -122,6 +122,12 @@ nav .webPages a:hover {
   margin-bottom: -1%;
   margin-top: 2%;
 }
+.container hr {
+  border: 0.5px solid #582817;
+}
+.container .hrMargin {
+  margin: 0 2%;
+}
 
 #aboutContainer {
   border: 68px solid #582817;
