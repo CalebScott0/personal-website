@@ -1,0 +1,7 @@
+﻿4/18:
+        After completing the personal website pt. 1 project, 
+        I am able to take away several key pieces of knowledge relating to web development. 
+        Over the last 4 days, I have been able to expand my knowledge of css properties like:
+         border interactions, flexbox and have increased my overall design ability. 
+         At the same time I have a more concrete understanding of how html tags function both in relation to each other, 
+         and with css formatting.
