@@ -56,6 +56,7 @@ nav {
   }
 }
 
+// specific styling for about page nav bar to reverse color scheme
 #aboutNav {
   background-color: $color3;
   border: $divBorder;
@@ -119,7 +120,7 @@ nav {
     border-right: none;
     padding-bottom: 100px;
     overflow: hidden;
-
+// changing font of bio paragraph and setting max width of container
     p {
       font-family: EB garamond, sans-serif;
       max-width: 540px;
@@ -144,8 +145,8 @@ nav {
   }
   // styling of divs on about page
   #computer, #ultimate, #yoga {
-
     display: flex;
+    // image size styling
     img {
       width: 20%;
       height: 10%;
@@ -155,9 +156,11 @@ nav {
       margin: 2% 2% -1%;
     }
   }
+  // adjusting max height of yoga pic 
   #yogaPic {
     max-height: 250px;
   }
+  // adjusting computer and yoga headings spacing
   #computerHeading, #yogaHeading {
     margin-left: 2%;
     margin-bottom: -1%;
@@ -173,6 +176,7 @@ nav {
   font-family: EB garamond, sans-serif;
   font-size: larger;
 }
+// styling for header on about page
 #aboutHeading {
   background-color: #582817;
   color: #e4d9c3;
